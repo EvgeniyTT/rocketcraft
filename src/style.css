@@ -1,0 +1,51 @@
+body
+{
+    background: #333;
+    text-align: center;
+}
+
+#gameName
+{
+    color: #fff;
+    font-family: Courier;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+canvas
+{
+    display: block;
+    margin: 2px auto 0px
+}
+
+#player, #enemy, #stats, #bullet
+{
+    display: block;
+    margin: -500px auto 0px
+}
+
+
+a.buttonStyle {
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+    margin-top: 10px;
+}
+
+.keys {
+    color: white;
+    padding-top: 20px;
+    display: block;
+}
+
+a.buttonStyle:hover { background: rgba(255,255,255,.2); }
+a.buttonStyle:active { background: white; }
