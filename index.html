@@ -3,12 +3,12 @@
     <head lang="en">
         <meta charset="UTF-8">
         <title>RocketCraft</title>
-        <script src="game.js"></script>
-        <script src="player.js"></script>
-        <script src="enemy.js"></script>
-        <script src="control.js"></script>
-        <script src="bullet.js"></script>
-        <link rel="stylesheet" href="style.css">
+        <script src="./src/game.js"></script>
+        <script src="./src/player.js"></script>
+        <script src="./src/enemy.js"></script>
+        <script src="./src/control.js"></script>
+        <script src="./src/bullet.js"></script>
+        <link rel="stylesheet" href="./src/style.css">
 
     </head>
     <body>
@@ -19,10 +19,8 @@
         <canvas id="enemy"></canvas>
         <canvas id="stats"></canvas>
         <canvas id="bullet"></canvas>
-        <!--<input id="drawBtn" type="button" value="Draw">-->
-        <!--<input id="clearBtn" type="button" value="Clear">-->
         <a id="startLoop" class="buttonStyle" type="button" onclick="startLoop()" value="Restart">Start</a>
         <a id="stopLoop"  class="buttonStyle" type="button" onclick="stopLoop()" value="Pause">Stop</a>
-        <audio src="../src/audio/666-Paradoxx.mp3" autoplay></audio>
+        <audio src="./src/audio/666-Paradoxx.mp3" autoplay></audio>
     </body>
 </html>

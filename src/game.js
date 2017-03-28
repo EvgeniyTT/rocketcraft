@@ -24,12 +24,12 @@ var gameWidth = 1152;
 var gameHeight = 500; //648
 
 var background = new Image();
-background.src = "img/bg10.png";
+background.src = "./src/img/bg10.png";
 var background1 = new Image();
-background1.src = "img/bg10.png";
+background1.src = "./src/img/bg10.png";
 
 var tiles = new Image();
-tiles.src = "img/tiles.png";
+tiles.src = "./src//img/tiles.png";
 
 var player;
 var enemies = [];
